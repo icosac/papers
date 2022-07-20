@@ -1,4 +1,31 @@
 \begin{abstract}
+
+  There is an increasing trend for automating warehouses and factories
+  leveraging on teams of autonomous robotic agents. The orchestration
+  problem for a fleet of autonomous robotic cooperating agents has
+  been tackled in the literature as Multi-Agent Path Finding (MAPF).
+  Several algorithms have been proposed in the literature to solve the
+  MAPF problem. However, these algorithms have been only applied to
+  synthetic randomly generated scenarios. The application in real
+  application demands for scalability (being able to deal with
+  realistic size warehouses) and efficiency (being able to quickly
+  adapt to changes in the problems due e.g.  new orders or change in
+  priorities).
+
+  In this work we perform a detailed analysis of the MAPF literature,
+  we selected the most effective algorithms, we implemented them and
+  we carried out an experimental analysis on a real scalable warehouse
+  of a large distribution company to evaluate their applicability in
+  such scenarios.
+
+  The results show that a) there is not a clear winner; b) there are
+  difficult (realistic) cases out of scope of all the algorithms. For
+  such difficult cases, we designed novel heuristics to be employed by
+  the best algorithms to solve them efficiently.
+\end{abstract}
+
+\endinput
+\begin{abstract}
 The new industrial revolution is proving the critical role of robotics in
 industry and also in everyday lives of people. This work focuses on the
 Multi-Agent Path Finding (MAPF) considering a real warehouse located in the
@@ -11,7 +38,7 @@ showing their strengths and their weak spots. In particular, we focus on the
 description of correct and optimal solvers. Next we propose a concise review of
 some variants of the classical MAPF problem explaining why some of these
 aspects are important to model our problem on the warehouse. Then, we describe
-the three algorithms we have chosen and implemented to tackle the 
+the three algorithms we have chosen and implemented to tackle the
 aforementioned problem explaining the modification we had to make to them in
 order to be used in our scenario. Two of these are based on the same MAPF
 algorithm, but they use different internal solvers as it will be more clear
@@ -22,5 +49,5 @@ increasing difficulty. Next a discussion on the results and the future work
 that may come with it is carried out. The results show the implemented
 algorithms’ limitations, from the analysis of which we describe a particularly
 difficult case. Eventually, we propose some modifications to the algorithms
-that may improve the performance and the number of cases they manage to solve. 
+that may improve the performance and the number of cases they manage to solve.
 \end{abstract}
