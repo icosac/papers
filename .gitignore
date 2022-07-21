@@ -52,3 +52,5 @@ old/
 *.nav
 
 .vscode/
+
+out/
